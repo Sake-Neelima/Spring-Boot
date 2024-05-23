@@ -1,0 +1,24 @@
+my:
+ app:
+  driver: ORACLE-DEV-NEW
+  url: SAMPLE-DEV-NEW;
+  
+---
+spring:
+ config:
+  activate:
+   on-profile: qa
+my:
+ app:
+  driver: ORACLE-QA-NEW
+  url: SAMPLE-QA-NEW;
+  
+---
+spring:
+ config:
+  activate:
+   on-profile: DA
+my:
+ app:
+  driver: ORACLE-DA-NEW
+  url: SAMPLE-DA-NEW;

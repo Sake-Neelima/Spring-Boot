@@ -1,0 +1,17 @@
+my:
+ app:
+  id: 101
+  name: vamsi
+  salary: 7890.78
+  details:
+   - mno
+   - lmo
+   - dsy 
+  Version:
+   v1: 1
+   v2: 4
+   v5: 6
+  md:
+   code: kjdh
+   addr: geethanagr
+    
